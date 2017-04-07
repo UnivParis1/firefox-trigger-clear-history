@@ -1,0 +1,8 @@
+{
+  "name": "trigger-clear-history",
+  "version": "1.0.0",
+  "description": "Add-on to ensure cookies&history is cleared. Need configuration. Useful on kiosks",
+  "manifest_version": 2,
+  "background": { "scripts": ["index.js"] },
+  "permissions": [ "cookies", "history", "<all_urls>" ]
+}
